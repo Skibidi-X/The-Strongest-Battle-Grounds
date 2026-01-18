@@ -11,17 +11,17 @@ local OrionLib = {
 	ThemeObjects = {},
 	Connections = {},
 	Flags = {},
-	Themes = {
-		Default = {
-			Main = Color3.fromRGB(10, 10, 10),       -- メイン背景（黒に近い）
-			Second = Color3.fromRGB(25, 25, 25),     -- タブ内やセクション背景（濃いグレー）
-			Stroke = Color3.fromRGB(0, 120, 255),    -- 枠線（ネオン青）
-			Divider = Color3.fromRGB(0, 120, 255),   -- 区切り線も青
-			Text = Color3.fromRGB(220, 220, 255),    -- 文字は白っぽい青
-			TextDark = Color3.fromRGB(120, 180, 255),-- 補助文字・淡い青
-			TitleText = Color3.fromRGB(180, 220, 255) -- タイトルは白っぽい青
-		}
-	},
+Themes = {
+    Default = {
+        Main = Color3.fromRGB(20, 20, 25),     
+        Second = Color3.fromRGB(30, 30, 40),     
+        Stroke = Color3.fromRGB(80, 150, 255),   
+        Divider = Color3.fromRGB(80, 150, 255),  
+        Text = Color3.fromRGB(240, 240, 240),
+        TextDark = Color3.fromRGB(150, 200, 255), 
+        Slider = Color3.fromRGB(80, 150, 255)    
+    }
+},
 	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
