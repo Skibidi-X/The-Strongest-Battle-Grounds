@@ -13,15 +13,15 @@ local OrionLib = {
     Flags = {},
     Themes = {
         Default = {
-            Main = Color3.fromRGB(20, 20, 25),       
-            Second = Color3.fromRGB(30, 30, 40),     
-            Stroke = Color3.fromRGB(80, 150, 255),   
-            Divider = Color3.fromRGB(80, 150, 255),  
+            Main = Color3.fromRGB(0, 0, 0),          
+            Second = Color3.fromRGB(20, 0, 40),      
+            Stroke = Color3.fromRGB(180, 100, 255),  
+            Divider = Color3.fromRGB(180, 100, 255),
             Text = Color3.fromRGB(240, 240, 240),   
-            TextDark = Color3.fromRGB(150, 200, 255),
-            Slider = Color3.fromRGB(80, 150, 255), 
-            Toggle = Color3.fromRGB(80, 150, 255),
-            Button = Color3.fromRGB(80, 150, 255)
+            TextDark = Color3.fromRGB(200, 150, 255),
+            Slider = Color3.fromRGB(180, 100, 255),  
+            Toggle = Color3.fromRGB(180, 100, 255),  
+            Button = Color3.fromRGB(180, 100, 255)   
         }
     },
     SelectedTheme = "Default",
