@@ -14,12 +14,12 @@ local OrionLib = {
     Themes = {
         Default = {
             Main = Color3.fromRGB(0, 0, 0),          
-            Second = Color3.fromRGB(20, 0, 40),      
+            Second = Color3.fromRGB(25, 0, 50),      
             Stroke = Color3.fromRGB(180, 100, 255),  
-            Divider = Color3.fromRGB(180, 100, 255),
+            Divider = Color3.fromRGB(180, 100, 255), 
             Text = Color3.fromRGB(240, 240, 240),   
             TextDark = Color3.fromRGB(200, 150, 255),
-            Slider = Color3.fromRGB(180, 100, 255),  
+            Slider = Color3.fromRGB(220, 120, 255), 
             Toggle = Color3.fromRGB(180, 100, 255),  
             Button = Color3.fromRGB(180, 100, 255)   
         }
